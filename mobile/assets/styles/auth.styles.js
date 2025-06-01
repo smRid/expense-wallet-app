@@ -9,8 +9,8 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   illustration: {
-    width: "100%",
     height: 310,
+    width: 300,
     resizeMode: "contain",
   },
   title: {
@@ -67,6 +67,7 @@ export const styles = StyleSheet.create({
     padding: 20,
     justifyContent: "center",
     alignItems: "center",
+    paddingTop: 60, // Override the top padding to reduce space
   },
   verificationTitle: {
     fontSize: 24,
