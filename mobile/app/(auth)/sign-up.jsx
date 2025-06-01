@@ -37,7 +37,13 @@ export default function SignUpScreen() {
     } catch (err) {
       if (err.errors?.[0]?.code === "form_identifier_exists") {
         setError("An account with this email already exists. Please sign in instead.")
-      } 
+      } else if (err.errors?.[0]?.code === "form_password_pwned" || err.errors?.[0]?.message?.includes("Password has been found in an online data breach")) {
+        setError("Password has been found in an online data breach. For account safety, please use a different password.")
+      } else if (err.errors?.[0]?.message?.includes("Passwords must be 8 characters or more")) {
+        setError("Passwords must be 8 characters or more.")
+      } else {
+        setError("An error occurred. Please try again later.")
+      }
       
       console.log(err)
     }
