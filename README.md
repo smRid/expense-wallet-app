@@ -12,6 +12,24 @@ Track your daily expenses, monitor your wallet balance, and manage your finances
 
 ---
 
+## 🚀 Features
+
+### 🔥 Core Features
+
+- 📱 **Cross-Platform App**: Built with React Native & Expo  
+- 🔐 **Authentication**: Signup & login with Clerk  
+- 📩 **Email Verification**: Secure 6-digit code flow before accessing the app  
+- 🏠 **5 Screens**: Signup, Login, Verify Email, Home, and Create Transaction  
+- 💸 **Expense Tracker**: Add income or expenses and manage financial entries  
+- 📊 **Balance Updates**: Live calculation of current balance based on transactions  
+- 🗑️ **Delete Transactions**: Remove old entries with a single tap  
+- 🔄 **Pull to Refresh**: Classic refresh gesture implemented from scratch  
+- 🚪 **Logout Functionality**: Easily switch accounts or sign out  
+- 🧰 **Backend with Express**: RESTful API connected to Neon-hosted Postgres  
+- ⏱️ **Rate Limiting**: Protect your API using Redis-based limiter  
+
+---
+
 ## 📱 Mobile Frontend
 
 Built with **React Native** and powered by **Expo**, the mobile app provides a seamless and responsive user experience across both iOS and Android.
@@ -47,21 +65,6 @@ Built with **Node.js** and **Express**, this RESTful API is optimized for perfor
 
 ---
 
-## 🚀 Features
-
-### 🔥 Core Features
-
-- 📱 **Cross-Platform App**: Built with React Native & Expo  
-- 🔐 **Authentication**: Signup & login with Clerk  
-- 📩 **Email Verification**: Secure 6-digit code flow before accessing the app  
-- 🏠 **5 Screens**: Signup, Login, Verify Email, Home, and Create Transaction  
-- 💸 **Expense Tracker**: Add income or expenses and manage financial entries  
-- 📊 **Balance Updates**: Live calculation of current balance based on transactions  
-- 🗑️ **Delete Transactions**: Remove old entries with a single tap  
-- 🔄 **Pull to Refresh**: Classic refresh gesture implemented from scratch  
-- 🚪 **Logout Functionality**: Easily switch accounts or sign out  
-- 🧰 **Backend with Express**: RESTful API connected to Neon-hosted Postgres  
-- ⏱️ **Rate Limiting**: Protect your API using Redis-based limiter  
 
 
 
